@@ -45,6 +45,42 @@ class GenreSeeder extends Seeder
                 'created_at' => Date::now(),
                 'updated_at' => Date::now()
             ],
+            
+                [
+                    "name" => "Drama",
+                    
+                    "created_at" => "2023-04-05 10:16:14",
+                    "updated_at" => "2023-04-05 10:16:17",
+                    
+                ],
+                [
+                    "name" => "Crime/drama",
+                    
+                    "created_at" => "2023-04-05 10:16:16",
+                    "updated_at" => "2023-04-05 10:16:18",
+                    
+                ],
+                [
+                    "name" => "Action",
+                    
+                    "created_at" => "2023-04-05 10:16:55",
+                    "updated_at" => "2023-04-05 10:16:56",
+                    
+                ],
+                [
+                    "name" => "Adventure",
+                    
+                    "created_at" => "2023-04-05 10:17:09",
+                    "updated_at" => "2023-04-05 10:17:10",
+                    
+                ],
+                [
+                    "name" => "War",
+                    
+                    "created_at" => "2023-04-05 10:18:35",
+                    "updated_at" => "2023-04-05 10:18:36",
+                    
+                ]
         ]);
     }
 }

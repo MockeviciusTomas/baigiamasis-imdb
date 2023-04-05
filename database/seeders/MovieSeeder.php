@@ -16,71 +16,86 @@ class MovieSeeder extends Seeder
     {
         // DB::table('movies')->delete();
 
-        DB::table('movies')->insert([
-
-            [
-                'title' => 'Titanic',
-                'description' => 'Titanic is a 1997 American epic romance and disaster film directed, written, produced, and co-edited by James Cameron.',
-                'release_date' => '1999-11-01',
-                'runtime' => 195,
-                'rating' => 'PG-13',
-                'image' => 'https://play-lh.googleusercontent.com/560-H8NVZRHk00g3RltRun4IGB-Ndl0I0iKy33D7EQ0cRRwH78-c46s90lZ1ho_F1soo',
-                'created_at' => Date::now(),
-                'updated_at' => Date::now()
-            ],
-            [
-                'title' => 'Inception',
-                'description' => 'Inception is a 2010 science fiction action film[4][5][6] written and directed by Christopher Nolan, who also produced the film with Emma Thomas, his wife.',
-                'release_date' => '2010-07-08',
-                'runtime' => 148,
-                'rating' => 'PG-13',
-                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt1375666%2F&psig=AOvVaw1RTy4irZNCWtCsC9bQQR04&ust=1677092778248000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCnrsynp_0CFQAAAAAdAAAAABAE',
-                'created_at' => Date::now(),
-                'updated_at' => Date::now()
-            ],
-            [
-                'title' => 'Forrest Gump',
-                'description' => 'Forrest Gump is a 1994 American comedy-drama film directed by Robert Zemeckis and written by Eric Roth. ',
-                'release_date' => '1994-06-23',
-                'runtime' => 142,
-                'rating' => 'PG-13',
-                'image' => 'https://m.media-amazon.com/images/M/MV5BZmFkMzc2NTctN2U1Ni00MzE5LWJmMzMtYWQ4NjQyY2MzYmM1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg',
-                'created_at' => Date::now(),
-                'updated_at' => Date::now()
-
-            ],
-            [
-                'title' => "Scary Movie",
-                'description' => "A year after disposing of the body of a man they accidentally killed, a group of dumb teenagers are stalked by a bumbling serial killer.",
-                'release_date' => "2000-07-07",
-                'runtime' => 88,
-                'rating' => "PG-13",
-                'image' => 'https://m.media-amazon.com/images/M/MV5BZmFkMzc2NTctN2U1Ni00MzE5LWJmMzMtYWQ4NjQyY2MzYmM1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg',
-                'created_at' => Date::now(),
-                'updated_at' => Date::now()
-
-            ],
-            [
-                'title' => "American Pie",
-                'description' => "Four teenage boys enter a pact to lose their virginity by prom night.",
-                'release_date' => "1999-07-09",
-                'runtime' => 95,
-                'rating' => "R",
-                'image' => 'https://images.moviesanywhere.com/2afb9a102853b93e2e1784e73bacabdd/8dfec5ad-fddf-45d6-95e6-8b9fb4ff3dd6.jpg',
-                'created_at' => Date::now(),
-                'updated_at' => Date::now()
-
-            ],
-            [
-                'title' => "Harry Potter and the Deathly Hallows: Part 2",
-                'description' => "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
-                'release_date' => "2011-07-07",
-                'runtime' => 130,
-                'rating' => "PG-13",
-                'image' => 'https://sanfranciscoparksalliance.org/wp-content/uploads/2022/05/Harry-Potter.png',
-                'created_at' => Date::now(),
-                'updated_at' => Date::now()
-            ],
-        ]);
+        DB::table('movies')->insert([[
+                    "title" => "The Shawshank Redemption",
+                    "description" => "Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison. He becomes the most unconventional prisoner.",
+                    "release_date" => "1994-09-22",
+                    "runtime" => 144,
+                    "rating" => "R",
+                    "image" => "The Shawshank Redemption.PNG",
+                    "created_at" => "2023-03-31 13:16:04",
+                    "updated_at" => "2023-04-05 08:29:49",
+                ],
+                [
+                    "title" => "The Godfather",
+                    "description" => "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+                    "release_date" => "1972-03-24",
+                    "runtime" => 175,
+                    "rating" => "R",
+                    "image" => "The Godfather.PNG",
+                    "created_at" => "2023-03-31 13:16:04",
+                    "updated_at" => "2023-04-05 11:37:36",
+                ],
+                [
+                    "title" => "The Dark Knight",
+                    "description" => "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.",
+                    "release_date" => "2008-07-24",
+                    "runtime" => 152,
+                    "rating" => "PG-13",
+                    "image" => "The Dark Knight.PNG",
+                    "created_at" => "2023-03-31 13:16:04",
+                    "updated_at" => "2023-04-05 11:40:48",
+                ],
+                [
+                    "title" => "The Godfather Part II",
+                    "description" => "Michael, Vito Corleone's son, attempts to expand his family's criminal empire. While he strikes a business deal with gangster Hyman Roth, he remains unaware of the lurking danger.",
+                    "release_date" => "1974-12-20",
+                    "runtime" => 202,
+                    "rating" => "R",
+                    "image" => "The Godfather Part II.PNG",
+                    "created_at" => "2023-03-31 13:16:04",
+                    "updated_at" => "2023-04-05 11:47:25",
+                ],
+                [
+                    "title" => "12 Angry Men",
+                    "description" => "A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed in court.",
+                    "release_date" => "1957-12-12",
+                    "runtime" => 96,
+                    "rating" => "PG-13",
+                    "image" => "12 Angry Men.PNG",
+                    "created_at" => "2023-03-31 13:16:04",
+                    "updated_at" => "2023-04-05 11:52:32",
+                ],
+                [
+                    "title" => "Schindler's List",
+                    "description" => "Oskar Schindler, a German industrialist and member of the Nazi party, tries to save his Jewish employees after witnessing the persecution of Jews in Poland.",
+                    "release_date" => "1994-01-04",
+                    "runtime" => 195,
+                    "rating" => "R",
+                    "image" => "Shindler's List.PNG",
+                    "created_at" => "2023-03-31 13:16:04",
+                    "updated_at" => "2023-04-05 11:56:09",
+                ],
+                [
+                    "title" => "The Lord of the Rings: The Return of the King",
+                    "description" => "The former Fellowship members prepare for the final battle. While Frodo and Sam approach Mount Doom to destroy the One Ring, they follow Gollum, unaware of the path he is leading them to.",
+                    "release_date" => "2003-12-01",
+                    "runtime" => 201,
+                    "rating" => "PG-13",
+                    "image" => "The Lord of the Rings The Return of the King.PNG",
+                    "created_at" => "2023-04-02 12:34:01",
+                    "updated_at" => "2023-04-05 11:58:38",
+                ],
+                [
+                    "title" => "Pulp Fiction",
+                    "description" => "In the realm of underworld, a series of incidents intertwines the lives of two Los Angeles mobsters, a gangster's wife, a boxer and two small-time criminals.",
+                    "release_date" => "1994-11-14",
+                    "runtime" => 154,
+                    "rating" => "R",
+                    "image" => "Pulp Fiction.PNG",
+                    "created_at" => "2023-04-02 12:45:15",
+                    "updated_at" => "2023-04-05 12:00:48",
+                ]]
+            );
     }
 }
